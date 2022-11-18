@@ -1,11 +1,24 @@
 const div = document.createElement("div");
 div.className = "test-container";
-div.classList.add("anotherclass");
 div.style.background = "lightblue";
-div.style.height = "100px";
 div.style.border = "1px solid blue";
 document.body.appendChild(div);
 div.innerHTML = `<div class="card">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod
+                </div>
+                <div class="card">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod
+                </div>
+                <div class="card">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod
+                </div>
+                <div class="card">
                     <h2>Title</h2>
                     <p>Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do eiusmod
